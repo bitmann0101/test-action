@@ -4,6 +4,8 @@ on:
     types: [created]
 permissions: 
   issues: write
+  contents: write
+  pull-requests: write
 jobs:
   slashCommandDispatch:
     runs-on: ubuntu-latest
