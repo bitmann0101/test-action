@@ -4,6 +4,8 @@ on:
     types: [example-command]
 permissions: 
   issues: write
+  contents: write
+  pull-requests: write
 jobs:
   example:
     runs-on: ubuntu-latest
